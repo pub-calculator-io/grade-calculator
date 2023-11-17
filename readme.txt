@@ -1,6 +1,6 @@
 === Grade Calculator by Calculator.iO ===
 Contributors: calculatorio
-Tags: 
+Tags: grade calculator, calculate grade, final grade, grading system, grade percentage, letter grade, GPA calculator, academic assessment, course evaluation, weighted grades
 Requires at least: 5.0
 Tested up to: 6.4.0
 Stable tag: 1.0.0
