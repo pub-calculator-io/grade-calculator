@@ -1,4 +1,4 @@
-# Grade Calculator WordPress Widget by [Calculator.iO](https://www.calculator.io/ "Calculator.iO Homepage")
+# Grade Calculator Widget for WordPress
 
 Our weighted grade calculator shows your average and what to earn for the final grade you want. A timesaver if you don't know how to calculate grades!
 
