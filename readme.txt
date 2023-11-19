@@ -1,4 +1,4 @@
-=== Grade Calculator by www.calculator.io ===
+=== CI Grade calculator ===
 Contributors: calculatorio
 Tags: grade calculator, calculate grade, final grade, grading system, grade percentage, letter grade, GPA calculator, academic assessment, course evaluation, weighted grades
 Requires at least: 5.0

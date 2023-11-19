@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Grade Calculator by www.calculator.io
+Plugin Name: CI Grade calculator
 Plugin URI: https://www.calculator.io/grade-calculator/
 Description: Our weighted grade calculator shows your average and what to earn for the final grade you want. A timesaver if you don't know how to calculate grades!
 Version: 1.0.0
