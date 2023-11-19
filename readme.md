@@ -7,7 +7,7 @@ Our weighted grade calculator shows your average and what to earn for the final 
 
 ## Installation
 
-1. [Download](https://github.com/pub-calculator-io/age-calculator/archive/refs/heads/master.zip) the ZIP file of this repository.
+1. [Download](https://github.com/pub-calculator-io/grade-calculator/archive/refs/heads/master.zip) the ZIP file of this repository.
 2. Upload the /grade-calculator-master/ folder to the /wp-content/plugins/ directory.
 3. Activate the [Grade Calculator](https://www.calculator.io/grade-calculator/ "Grade Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
