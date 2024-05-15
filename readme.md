@@ -3,7 +3,6 @@
 Our weighted grade calculator shows your average and what to earn for the final grade you want. A timesaver if you don't know how to calculate grades!
 
 ![Grade Calculator Input Form](/assets/images/screenshot-1.png "Grade Calculator Input Form")
-![Grade Calculator Calculation Results](/assets/images/screenshot-2.png "Grade Calculator Calculation Results")
 
 ## Installation
 

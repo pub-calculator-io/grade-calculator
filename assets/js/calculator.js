@@ -19,7 +19,7 @@ function calculate(){
 				});
 			}
 			if(totalWeight > 100){
-				input.error([`weight_${letter}`], 'Please make sure that the weight inputs are correct.');
+				input.error([`weight_${letter}`], 'Make sure that the weight inputs are correct.');
 			}
 		}
 	}

@@ -39,14 +39,14 @@
                 				<input type="text" class="input-field__input" placeholder="" id="exam_a" value="Homework" />
                 				
                 			</div>
-                		</label>		<label class="input col   ">
+                		</label>		<label class="input col gpa-calculator  ">
                 			<p class="input__title">Grade</p>
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="grade_a" value="90"  />
                 			</div>
                 		
                 		
-                		</label>		<label class="input col   ">
+                		</label>		<label class="input col gpa-calculator  ">
                 			<p class="input__title">Weight</p>
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="weight_a" value="5"  />
@@ -69,14 +69,14 @@
                 				<input type="text" class="input-field__input" placeholder="" id="exam_b" value="Project" />
                 				
                 			</div>
-                		</label>		<label class="input col   ">
+                		</label>		<label class="input col gpa-calculator  ">
                 			
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="grade_b" value="B"  />
                 			</div>
                 		
                 		
-                		</label>		<label class="input col   ">
+                		</label>		<label class="input col gpa-calculator  ">
                 			
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="weight_b" value="20"  />
@@ -99,14 +99,14 @@
                 				<input type="text" class="input-field__input" placeholder="" id="exam_c" value="Midterm exam" />
                 				
                 			</div>
-                		</label>		<label class="input col   ">
+                		</label>		<label class="input col gpa-calculator  ">
                 			
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="grade_c" value="88"  />
                 			</div>
                 		
                 		
-                		</label>		<label class="input col   ">
+                		</label>		<label class="input col gpa-calculator  ">
                 			
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="weight_c" value="20"  />
@@ -129,14 +129,14 @@
                 				<input type="text" class="input-field__input" placeholder="" id="exam_d" value="" />
                 				
                 			</div>
-                		</label>		<label class="input col   ">
+                		</label>		<label class="input col gpa-calculator  ">
                 			
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="grade_d" value=""  />
                 			</div>
                 		
                 		
-                		</label>		<label class="input col   ">
+                		</label>		<label class="input col gpa-calculator  ">
                 			
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="weight_d" value=""  />
@@ -188,20 +188,24 @@
                 
                 
                 
-                	<button class="button button--primary ml-auto" onclick="calculate(this)">Calculate</button>
+                	<button class="button button--primary ml-auto" onclick="calculate(this); animateElements();" data-action="calculate" id="action-button">Calculate</button>
                 </div>
                 
                 
                 
                 
-                	<script type="text/javascript" src="./assets/js/calculator.js"></script>
+                
+                
+                	<script type="text/javascript" src="./assets/js/calculator.js" defer></script>
                 <div class="calculator-content calculator-content--gray calculator-content--footer calculator-content--small row tab " data-tab="1">
                 
                 
                 
                 
-                	<button class="button button--primary ml-auto" onclick="calculateFinalGradeFunction(this)">Calculate</button>
+                	<button class="button button--primary ml-auto" onclick="calculateFinalGradeFunction(this); animateElements();" data-action="calculateFinalGradeFunction" id="action-button">Calculate</button>
                 </div>
+                
+                
                 
                 
                 
@@ -222,8 +226,7 @@
         </svg>
         		<p class="calculator-error__title">There was an error with your calculation.</p>
         	</div>
-        	<div class="col" id="error-list">
-        	</div>
+        	<div class="col" id="error-list"></div>
         </div>        <span id="calculator_result"><div class="calculator-result col tab tab--active" data-tab="0">
 	<div class="result-table__wrapper">
 		<table class="result-table result-table--fully">
@@ -239,7 +242,7 @@
 					<th>WEIGHT</th>
 				</tr>
 			</tbody>
-			<tbody id="result-table">
+			<tbody id="result-table" class="animate">
 				<tr>
 					<td>Homework</td>
 					<td>90</td>
@@ -268,7 +271,7 @@
 <div class="calculator-result col tab" data-tab="1">
 		<p class="table-cell table-cell--dark table-cell--only-title">FINAL GRADE</p>
 		<div class="table-cell table-cell--only">
-			<p class="result-text" id="final-grade-result">A <b>grade of 80.5</b> or higher is needed for the remaining 40% of tasks to ensure a final grade of 85.</p>
+			<p class="result-text animate" id="final-grade-result">A <b>grade of 80.5</b> or higher is needed for the remaining 40% of tasks to ensure a final grade of 85.</p>
 		</div>
 </div>
 </span>

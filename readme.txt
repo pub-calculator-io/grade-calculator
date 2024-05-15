@@ -24,7 +24,6 @@ Add the following code to your template where you would like the Grade Calculato
 == Screenshots ==
 
 1. The Grade Calculator Input Form.
-2. The Grade Calculator Calculation Results.
 
 == Installation ==
 
